@@ -1,0 +1,163 @@
+@font-face {
+    font-family: YouTube Sans;
+    src: url(fonts/Youtube-Sans/YouTubeSansMedium.otf);
+}
+
+
+body{
+
+    background-color: rgb(0, 0, 0);
+    font-family: Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+
+}
+.head-img{
+    width: 1354px;
+    height: 48px;
+    opacity: 0.5;
+}
+
+header{
+    background-color: black;
+    position: fixed;    
+    width: 98%;
+    padding: 8px 16px 0px 16px;
+    box-shadow: 0px 0.5px 0px rgba(128, 128, 128, 0.582);
+}
+.content{
+    margin: 0px 45px;
+    padding-top: 32px;
+}
+h2{
+    font-family: YouTube Sans,Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0px;
+}
+a.active{
+    color: #ffffff;
+}
+a{
+    color: #ffffff85;
+    text-decoration: none;
+}
+a:hover{
+    color: #ffffff;
+}
+
+.nav{
+    list-style: none;
+    
+}
+.nav > li{
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    padding : 0 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.logo,.profile {
+    cursor: pointer;
+}    
+ 
+.profile {
+    width: 26px;
+    height: 26px;
+    padding-left: 10px;
+
+} 
+.search{
+    width: 17px;
+}
+
+
+.grid{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.song{
+    padding: 16px 0px;
+    margin-bottom: 56px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.song::-webkit-scrollbar{ 
+    display: none;
+
+}
+.video{
+    
+    padding-top: 16px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden; 
+    margin-bottom: 56px;  
+}
+.video::-webkit-scrollbar{
+    display: none;
+}
+.listen{
+    float: left;
+    margin-right: 24px;
+    width: 190px;
+    height: 260px;
+}
+.video-card{
+    float: left;
+    margin-right: 180px;
+    width: 190px;
+    height: 260px;
+    transition: 0.5s;
+}
+
+.audio-pic{
+    width: 191px;
+    border-radius: 5px;
+    float: left;
+}
+
+
+.video-pic{
+    display: block;
+    width: 338.953px;
+    height: 190.031px;
+    border-radius: 5px;
+}
+ 
+.video-card .play{
+    position: relative;
+    width: 24px;
+    cursor: pointer;
+
+}
+
+    .audio-text{
+font-size: 16px;
+font-weight: 600;
+margin-bottom: 3px;
+}
+.artist{
+font-size: 15px;
+align-items: center;
+color: #ffffffb3;
+margin-top: 3px;
+}
+  /* charts division */
+  .title{
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .block-title{
+    display: block;
+  }
