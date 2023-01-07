@@ -25,6 +25,7 @@ header{
     width: 98%;
     padding: 8px 16px 0px 16px;
     box-shadow: 0px 0.5px 0px rgba(128, 128, 128, 0.582);
+    z-index: 999;
 }
 .content{
     margin: 0px 45px;
@@ -123,7 +124,7 @@ header{
 .audio-pic{
     width: 191px;
     border-radius: 5px;
-    float: left;
+
 }
 
 
@@ -141,7 +142,7 @@ header{
 
 }
 
-    .audio-text{
+.audio-text{
 font-size: 16px;
 font-weight: 600;
 margin-bottom: 3px;
@@ -161,3 +162,75 @@ margin-top: 3px;
   .block-title{
     display: block;
   }
+  /* quick picks */
+
+#items{
+    display: grid;
+    width: 1264px;
+    height: 240px       ; 
+    grid-template-columns: auto auto auto auto;
+    overflow-x: scroll;
+
+
+  }
+#items::-webkit-scrollbar{
+      display: none;
+    }
+  .single-item{
+    padding: 0 8px;
+    margin-right: 24px;
+    margin-bottom: 16px;
+    vertical-align: top;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.qp-tile{
+    display: flex;
+    border-radius: 2px;
+    margin-right: 16px;
+}
+.qp{
+    margin: 16px 0 24px;
+}
+.qp-all{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+/* favourite artists */
+.prefer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+.singer{
+    position: relative;
+    left: 155px;
+
+    width: 55%;
+    padding-right: 48px;
+}
+.choose{
+    position: relative;
+    right: 270px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    
+}
+
+.btn{
+    font-family: Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
+    cursor: pointer;
+    background-color: #ffffff;
+    padding: 10px 16px;
+    color: black;
+    border-radius: 3px;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
