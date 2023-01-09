@@ -167,7 +167,7 @@ margin-top: 3px;
 #items{
     display: grid;
     width: 1264px;
-    height: 240px       ; 
+    height: 445px       ; 
     grid-template-columns: auto auto auto auto;
     overflow-x: scroll;
 
@@ -194,6 +194,7 @@ margin-top: 3px;
     margin: 16px 0 24px;
 }
 .qp-all{
+
     display: grid;
     grid-template-columns: auto auto auto;
 }
@@ -234,3 +235,4 @@ margin-top: 3px;
     border: none;
     font-weight: bold;
 }
+
